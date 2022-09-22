@@ -1,0 +1,37 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "building",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbaiter",
+                "name": "Johannes Baiter"
+            },
+            "created": "2022-09-22T14:41:13.699Z",
+            "modified": "2022-09-22T14:41:14.378Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3629.169189453125,1000.0391845703125 3838.67333984375,1862.356689453125 5251.587715161359,1519.0824034743846 5042.083564770734,656.7648985915722\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c5ffa39d-4f31-487b-91de-97d0f4002c12.json",
+    "motivation": "commenting"
+}
