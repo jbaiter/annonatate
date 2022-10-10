@@ -1,0 +1,34 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Handschriftliche Notiz",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbaiter",
+                "name": "Johannes Baiter"
+            },
+            "created": "2022-10-10T19:12:26.086Z",
+            "modified": "2022-10-10T19:12:29.579Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"498.9222831726074\" cy=\"259.05375576019287\" rx=\"489.7095527648926\" ry=\"249.22717380523682\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a04f10ad-5425-4e57-a96e-dbde8bbdb1b8.json",
+    "motivation": "commenting"
+}
