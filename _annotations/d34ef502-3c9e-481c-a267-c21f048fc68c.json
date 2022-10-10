@@ -1,0 +1,35 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/6"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Kupferstich von Esslingen",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbaiter",
+                "name": "Johannes Baiter"
+            },
+            "created": "2022-10-10T19:10:49.389Z",
+            "modified": "2022-10-10T19:10:55.181Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/6",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3.7438852787017822,230.1317596435547,1160.5932729244232,2046.8069610595703"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d34ef502-3c9e-481c-a267-c21f048fc68c.json",
+    "motivation": "commenting"
+}
