@@ -1,0 +1,34 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Exlibris BSB",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbaiter",
+                "name": "Johannes Baiter"
+            },
+            "created": "2022-10-10T19:11:53.974Z",
+            "modified": "2022-10-10T19:11:55.847Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"294.8765869140625,709.5089111328125 294.8765869140625,706.5939331054688 297.79150390625,1700.5877685546875 1070.25,1709.33251953125 1046.9305419921875,712.423828125 1044.015625,700.7640991210938\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fd476355-f442-48f7-af77-9362bb4fbd98.json",
+    "motivation": "commenting"
+}
