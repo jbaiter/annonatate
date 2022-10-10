@@ -1,0 +1,34 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Buchklammer",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbaiter",
+                "name": "Johannes Baiter"
+            },
+            "created": "2022-10-10T19:14:08.674Z",
+            "modified": "2022-10-10T19:14:09.984Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/canvas/2",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"198.87692260742188,802.9877319335938 198.87692260742188,799.8638305664062 214.49623107910156,346.9039306640625 39.55998229980469,340.6562194824219 29.14046287536621,470.181884765625 0.266035795211792,470.181884765625 1.521445631980896,686.1123657226562 21.608003616333008,691.134033203125 21.608003616333008,797.8438720703125 84.37849426269531,815.4195556640625 178.5342254638672,816.6749877929688 179.78964233398438,814.1641845703125 182.3004608154297,811.6533813476562 182.3004608154297,812.9087524414062\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10020480/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fdbf7d6f-9900-4bb6-8614-750acac5d726.json",
+    "motivation": "commenting"
+}
